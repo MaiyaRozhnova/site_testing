@@ -1,9 +1,7 @@
-import time
 from pages.base_page import BasePage
 from pages.tensor import TensorMainPage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException
 
 
 class SbisMainPage(BasePage):
